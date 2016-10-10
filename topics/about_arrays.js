@@ -16,15 +16,6 @@ test("length", function() {
     equal(__, collection.length, 'what is the length of the collection array?');
 });
 
-test("splice", function() {
-    var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-    var workingWeek = daysOfWeek.splice(__, __);
-    var weekend = daysOfWeek;
-
-    deepEqual(workingWeek, ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], 'what is the value of workingWeek?');
-    deepEqual(weekend, ['Saturday', 'Sunday'], 'what is the value of weekend?');
-});
-
 test("stack methods", function() {
     var stack = [];
     stack.push("first");
