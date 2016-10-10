@@ -1,0 +1,15 @@
+{
+  "name": "js-koans-2",
+  "devDependencies": {
+    "gulp-qunit" : "~0.2.1",
+    "gulp-util" : "~2.2.14",
+    "gulp" : "~3.5.1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test" : "gulp"
+  }
+}
